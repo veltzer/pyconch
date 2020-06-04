@@ -1,14 +1,12 @@
 import setuptools
 
-"""
-The documentation can be found at:
-http://setuptools.readthedocs.io/en/latest/setuptools.html
-"""
 setuptools.setup(
     # the first three fields are a must according to the documentation
     name='pyconch',
     version='0.0.1',
     packages=[
+        'pyconch',
+        'pyconch.endpoints',
     ],
     # from here all is optional
     description='Pyconch is a wrapper for a shell in python',
@@ -31,6 +29,8 @@ setuptools.setup(
         'pytconf',
         'pylogconf',
     ],
+    extras_require={
+    },
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Console',
