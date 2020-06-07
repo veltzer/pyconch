@@ -22,7 +22,7 @@ setuptools.setup(
     ],
     url="https://veltzer.github.io/pyconch",
     download_url="https://github.com/veltzer/pyconch",
-    license="MIT",
+    # license="MIT",
     platforms=[
         'python3',
     ],
