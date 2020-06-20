@@ -1,5 +1,4 @@
 
-
 # *pyconch* project by Mark Veltzer
 
 ![PyPI - Status](https://img.shields.io/pypi/status/pyconch)
@@ -17,7 +16,7 @@
 ![Downloads](https://pepy.tech/badge/pyconch/month)
 ![Downloads](https://pepy.tech/badge/pyconch/week)
 
+
 Pyconch is a wrapper for a shell in python
 
-project website: https://veltzer.github.io/pyconch
-
+project website: <https://veltzer.github.io/pyconch>
