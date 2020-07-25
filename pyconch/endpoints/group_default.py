@@ -2,7 +2,7 @@
 The default group of operations that pyconch has
 """
 
-from pytconf.config import register_endpoint, register_function_group
+from pytconf import register_endpoint, register_function_group
 
 import pyconch.version
 
