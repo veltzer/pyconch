@@ -17,8 +17,11 @@
 ![Downloads](https://pepy.tech/badge/pyconch/week)
 
 
+
 Pyconch is a wrapper for a shell in python
 
 project website: <https://veltzer.github.io/pyconch>
+
+chat with me at [![gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/veltzer/mark.veltzer)
 
 
