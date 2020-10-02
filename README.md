@@ -16,6 +16,8 @@
 ![Downloads](https://pepy.tech/badge/pyconch/month)
 ![Downloads](https://pepy.tech/badge/pyconch/week)
 
+[![Known Vulnerabilities](https://snyk.io/test/github/veltzer/pyconch/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/veltzer/pyconch?targetFile=requirements.txt)
+
 
 
 Pyconch is a wrapper for a shell in python
