@@ -12,7 +12,6 @@ setuptools.setup(
     version="0.0.3",
     packages=[
         'pyconch',
-        'pyconch.endpoints',
     ],
     # from here all is optional
     description="Pyconch is a wrapper for a shell in python",

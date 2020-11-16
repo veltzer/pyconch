@@ -17,7 +17,10 @@ run_requires = [
 test_requires = [
     'pylint',  # to check for lint errors
     'pytest',  # for testing
+    'pytest-cov',  # for testing
     'pyflakes',  # for testing
+    'flake8',  # for testing
+    'pymakehelper',  # for makefile
 ]
 
 dev_requires = [
@@ -32,6 +35,6 @@ install_requires.extend(run_requires)
 
 python_requires = ">=3.6"
 
-extras_require={
-#    ':python_version == "2.7"': ['futures'],  # for python2.7 backport of concurrent.futures
+extras_require = {
+    #    ':python_version == "2.7"': ['futures'],  # for python2.7 backport of concurrent.futures
 }
