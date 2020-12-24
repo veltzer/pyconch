@@ -12,11 +12,6 @@
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/pyconch)
 
 ![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)
-![Downloads](https://pepy.tech/badge/pyconch)
-![Downloads](https://pepy.tech/badge/pyconch/month)
-![Downloads](https://pepy.tech/badge/pyconch/week)
-
-[![Known Vulnerabilities](https://snyk.io/test/github/veltzer/pyconch/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/veltzer/pyconch?targetFile=requirements.txt)
 
 
 Actions
