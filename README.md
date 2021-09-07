@@ -14,7 +14,6 @@
 ![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)
 
 ![build](https://github.com/veltzer/pyconch/workflows/build/badge.svg)
-
 Pyconch is a wrapper for a shell in python
 
 project website: https://veltzer.github.io/pyconch
