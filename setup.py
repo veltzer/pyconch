@@ -55,5 +55,5 @@ setuptools.setup(
     entry_points={"console_scripts": [
         'pyconch=pyconch.endpoints.main:main',
     ]},
-    python_requires=">=3.6",
+    python_requires=">=3.7",
 )
