@@ -2,7 +2,13 @@
 __pycache__/
 *.py[cod]
 *$py.class
-/*.pydmt/
+*.stamp
+/inspections
+/wheel
+
+/.myenv.pip.errors
+
+/.pydmt/
 
 # C extensions
 *.so
