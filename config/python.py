@@ -6,7 +6,7 @@ console_scripts = [
     "pyconch=pyconch.endpoints.main:main",
 ]
 
-run_requires = [
+install_requires = [
     "pytconf",
     "pylogconf",
 ]
