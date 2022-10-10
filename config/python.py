@@ -2,9 +2,7 @@ console_scripts = [
     "pyconch=pyconch.endpoints.main:main",
 ]
 dev_requires = [
-    "pyclassifiers",
     "pypitools",
-    "pydmt",
     "Sphinx",
 ]
 install_requires = [
@@ -14,6 +12,7 @@ install_requires = [
 make_requires = [
     "pymakehelper",
     "pydmt",
+    "pyclassifiers",
 ]
 test_requires = [
     "pylint",
@@ -21,6 +20,5 @@ test_requires = [
     "pytest-cov",
     "pyflakes",
     "flake8",
-    "pymakehelper",
     "mypy",
 ]
