@@ -3,10 +3,29 @@ main entry point to the program
 """
 
 
-import pylogconf.core
-from pytconf import register_main, config_arg_parse_and_launch
+from pytconf import register_main, config_arg_parse_and_launch, register_endpoint
+
+from prompt_toolkit.application import Application
+from prompt_toolkit.layout import Layout
+from ptterm import Terminal
 
 from pyconch.static import APP_NAME, VERSION_STR, DESCRIPTION
+
+
+@register_endpoint(
+    description="Run a terminal",
+)
+def term():
+    def done():
+        application.exit()
+
+    application = Application(
+        layout=Layout(
+            container=Terminal(done_callback=done)
+        ),
+        full_screen=True,
+    )
+    application.run()
 
 
 @register_main(
@@ -15,7 +34,6 @@ from pyconch.static import APP_NAME, VERSION_STR, DESCRIPTION
     version=VERSION_STR,
 )
 def main():
-    pylogconf.core.setup()
     config_arg_parse_and_launch()
 
 

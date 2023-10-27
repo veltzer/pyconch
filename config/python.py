@@ -6,7 +6,8 @@ dev_requires = [
 ]
 install_requires = [
     "pytconf",
-    "pylogconf",
+    "prompt_toolkit",
+    "ptterm",
 ]
 make_requires = [
     "pymakehelper",
