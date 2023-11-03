@@ -34,7 +34,8 @@ setuptools.setup(
     ],
     install_requires=[
         "pytconf",
-        "pylogconf",
+        "prompt_toolkit",
+        "ptterm",
     ],
     classifiers=[
         "Development Status :: 4 - Beta",
