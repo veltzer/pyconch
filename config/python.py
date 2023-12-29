@@ -4,6 +4,7 @@ console_scripts = [
 dev_requires = [
     "pypitools",
 ]
+config_install = []
 install_requires = [
     "pytconf",
     "prompt_toolkit",
@@ -22,3 +23,4 @@ test_requires = [
     "flake8",
     "mypy",
 ]
+requires = config_requires + install_requires + make_requires + test_requires
