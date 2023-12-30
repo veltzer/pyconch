@@ -1,21 +1,24 @@
-console_scripts = [
+from typing import List
+
+
+console_scripts: List[str] = [
     "pyconch=pyconch.endpoints.main:main",
 ]
-dev_requires = [
+config_requires: List[str] = []
+dev_requires: List[str] = [
     "pypitools",
 ]
-config_install = []
-install_requires = [
+install_requires: List[str] = [
     "pytconf",
     "prompt_toolkit",
     "ptterm",
 ]
-make_requires = [
+make_requires: List[str] = [
     "pymakehelper",
     "pydmt",
     "pyclassifiers",
 ]
-test_requires = [
+test_requires: List[str] = [
     "pylint",
     "pytest",
     "pytest-cov",
