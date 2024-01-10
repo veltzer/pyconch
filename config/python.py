@@ -4,9 +4,13 @@ from typing import List
 console_scripts: List[str] = [
     "pyconch=pyconch.endpoints.main:main",
 ]
-config_requires: List[str] = []
 dev_requires: List[str] = [
+    "pymultigit",
     "pypitools",
+    "black",
+]
+config_requires: List[str] = [
+    "pyclassifiers",
 ]
 install_requires: List[str] = [
     "pytconf",
