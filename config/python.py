@@ -5,7 +5,6 @@ console_scripts: List[str] = [
     "pyconch=pyconch.endpoints.main:main",
 ]
 dev_requires: List[str] = [
-    "pymultigit",
     "pypitools",
     "black",
 ]
