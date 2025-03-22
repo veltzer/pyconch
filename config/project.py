@@ -1,3 +1,4 @@
+""" project definitions """
 name = "pyconch"
 description_short = "Pyconch is a wrapper for a shell in python"
 keywords = [
