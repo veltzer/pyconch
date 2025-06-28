@@ -1,8 +1,8 @@
 """ python deps for this project """
 
-console_scripts: list[str] = [
-    "pyconch=pyconch.endpoints.main:main",
-]
+scripts: dict[str,str] = {
+    "pyconch": "pyconch.endpoints.main:main",
+}
 config_requires: list[str] = [
     "pyclassifiers",
 ]
