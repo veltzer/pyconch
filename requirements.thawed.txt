@@ -1,8 +1,10 @@
 # THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT!
+hatch
 mypy
 prompt_toolkit
 ptterm
 pyclassifiers
+pycmdtools
 pydmt
 pylint
 pymakehelper
