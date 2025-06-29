@@ -1,5 +1,0 @@
-""" version which can be consumed from within the module """
-VERSION_STR = "0.0.5"
-DESCRIPTION = "Pyconch is a wrapper for a shell in python"
-APP_NAME = "pyconch"
-LOGGER_NAME = "pyconch"
