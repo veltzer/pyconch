@@ -3,7 +3,6 @@ hatch
 mypy
 prompt_toolkit
 ptterm
-pyclassifiers
 pycmdtools
 pydmt
 pylint
