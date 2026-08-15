@@ -3,13 +3,12 @@ main entry point to the program
 """
 
 
-from pytconf import register_main, config_arg_parse_and_launch, register_endpoint
-
 from prompt_toolkit.application import Application
 from prompt_toolkit.layout import Layout
 from ptterm import Terminal
+from pytconf import config_arg_parse_and_launch, register_endpoint, register_main
 
-from pyconch.static import APP_NAME, VERSION_STR, DESCRIPTION
+from pyconch.static import APP_NAME, DESCRIPTION, VERSION_STR
 
 
 @register_endpoint(
