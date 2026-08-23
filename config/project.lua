@@ -5,3 +5,4 @@ KEYWORDS = {
     "bash",
     "tcsh",
 }
+PYPI = true
