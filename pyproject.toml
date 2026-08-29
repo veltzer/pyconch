@@ -37,6 +37,15 @@ dependencies = [
     "ptterm",
 ]
 
+[dependency-groups]
+dev = [
+	"pytest",
+	# pytconf 0.1.22 imports yaml but its published metadata does not
+	# declare pyyaml (already fixed in the pytconf repo, unreleased);
+	# drop this once pytconf 0.1.23 is on PyPI
+	"pyyaml",
+]
+
 [project.urls]
 "Homepage" = "https://github.com/veltzer/pyconch"
 "Bug Tracker" = "https://github.com/veltzer/pyconch/issues"
@@ -45,7 +54,7 @@ dependencies = [
 "Repository" = "https://github.com/veltzer/pyconch"
 
 [project.scripts]
-pyconch = "pyconch.endpoints.main:main"
+pyconch = "pyconch.main:main"
 
 [tool.ruff]
 line-length = 130
