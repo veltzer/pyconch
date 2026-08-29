@@ -36,9 +36,9 @@ src_dirs = ["src", "config", "tests"]
 src_dirs = ["tests"]
 # ptterm pins prompt_toolkit<3, incompatible with the prompt_toolkit>=3
 # tools in the shared environment — run the tests in the repo's own
-# uv-locked venv instead
-command = "scripts/pytest-venv.sh"
-required_tools = ["uv"]
+# uv-locked venv instead (the dev dependency group carries pytest)
+command = "uv"
+args = ["run", "--frozen", "pytest"]
 dep_inputs = ["uv.lock"]
 
 [processor.luacheck]
