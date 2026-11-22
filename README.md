@@ -5,7 +5,7 @@
 
 description: Pyconch is a wrapper for a shell in python
 
-project website: https://veltzer.github.io/pyconch
+project website: <https://veltzer.github.io/pyconch>
 
 author: Mark Veltzer
 
